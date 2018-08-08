@@ -9,10 +9,5 @@ pipeline {
           sh 'mvn clean compile'
         }
       }
-      stage ('Testing stage'){
-        steps{
-          sh 'mvn test'
-          }
-      }
 }
 }
